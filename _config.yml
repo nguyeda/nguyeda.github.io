@@ -1,1 +1,19 @@
-theme: jekyll-theme-slate
+title: David Nguyen
+email: david@netis.be
+description: >-
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
+baseurl: ""
+url: "https://david2.nguyen.eu"
+twitter_username: nguyedav
+github_username:  nguyeda
+
+theme: minima
+plugins:
+  - jekyll-feed
+
+exclude:
+  - docker-compose.yml
+  - docker-entrypoint.yml
+  - Dockerfile

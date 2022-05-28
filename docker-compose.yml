@@ -1,0 +1,10 @@
+services:
+  jekyll:
+    build:
+      context: .
+      target: serve
+    working_dir: /app
+    ports:
+      - 4000:4000
+    volumes:
+      - .:/app
